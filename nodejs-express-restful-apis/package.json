@@ -4,7 +4,7 @@
   "description": "Linkedin Learning course -  https://www.linkedin.com/learning/building-restful-apis-with-node-js-and-express-16069959/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node"
   },
   "author": "Dana Ng",
   "license": "ISC",
