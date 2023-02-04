@@ -30,3 +30,6 @@ Linkedin Learning course [link to course](https://www.linkedin.com/learning/buil
     -  `npm i --save-dev @babel/core @babel/cli @babel/node @babel/preset-env`
     - Other dependencies: `npm i nodemon body-parser`
 
+4) Robo 3T
+    - Once installed can connect to database using `localhost:27017`
+
