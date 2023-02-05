@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon --experimental-json-modules --exec babel-node index.js"
+    "start": "nodemon --experimental-json-modules --exec babel-node app.js"
   },
   "author": "Dana Ng",
   "license": "ISC",

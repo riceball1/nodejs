@@ -16,4 +16,5 @@ You can build a backend environment.
 
 ### Express Essentials Folder
 - initialize project with `npm init`
-- 
+- install express, nodemon, babel/core, babel/node, babel/cli, babel/preset-env
+- use [mockaroo](https://www.mockaroo.com/) for mock data to test an app
