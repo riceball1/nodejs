@@ -8,6 +8,11 @@ const PORT = 3000;
 // serve static files
 app.use(express.static('public'))
 
+// json() and urlencoded()
+app.use(express.json()) 
+// app.use(express.urlencoded({extended: true}))
+
+
 app.get('/', (req, res) => {
     res.json(data)
 })

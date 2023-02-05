@@ -18,3 +18,8 @@ You can build a backend environment.
 - initialize project with `npm init`
 - install express, nodemon, babel/core, babel/node, babel/cli, babel/preset-env
 - use [mockaroo](https://www.mockaroo.com/) for mock data to test an app
+
+**built-in middleware functions**
+- express.static - serves static assets
+- express.json - parses incoming requests with JSON payloads
+- express.urlencoded - parses incoming requests with URL-encoded payloads
