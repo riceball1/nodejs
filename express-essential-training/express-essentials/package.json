@@ -5,7 +5,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --experimental-json-modules --exec babel-node app.js"
+    "start": "nodemon --experimental-json-modules --exec babel-node app.js",
+    "debug": "DEBUG=express-essentials:* nodemon --experimental-json-modules --exec babel-node app.js"
   },
   "author": "Dana Ng",
   "license": "ISC",
