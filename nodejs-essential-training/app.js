@@ -20,6 +20,16 @@ const request = https.request(options, (res, err) => {
     res.on("data", chunk => {
         console.log("--chunk", chunk.length)
         responseBody += chunk;
+    });
+
+    // write to a file
+    res.on("end", () => {
+        fs.writeFile("turkish-language.html", responseBody, err => {
+            if (err) {
+                throw err;
+            }
+            console.log("File downloaded")
+        } )
     })
 })
 
