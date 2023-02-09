@@ -8,6 +8,6 @@ Linkedin Tutorial [link](https://www.linkedin.com/learning/node-js-essential-tra
 - Topics focused on:
     - HTTP module
     - npm
-    - web servers; express
+    - web servers/express
     - websockets
     - node.js testing
