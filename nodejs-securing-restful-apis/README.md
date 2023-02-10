@@ -1,5 +1,6 @@
 # Node.js Securing RESTful APIs
 
+[Linkedin tutorial](https://www.linkedin.com/learning/node-js-securing-restful-apis-2)
 
 ## Notes
 
