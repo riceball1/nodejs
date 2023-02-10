@@ -19,3 +19,6 @@ Linkedin Tutorial [link](https://www.linkedin.com/learning/node-js-essential-tra
     - uses npm package `ws`
 - [socket.io](https://socket.io/) 
     - uses `socket.io` and `socket.io-client` for real-time chat applications
+- Jest - testing framework
+    - use npm package `cross-env` to help with import issues and experimental features
+    - code-coverage built into jest; good to have 80% or above code coverage
