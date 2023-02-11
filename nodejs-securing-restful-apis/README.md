@@ -19,3 +19,10 @@
         - The signature proves the identity of the requester and validates the request. 
     - JWT is used for secure information transmission and can also be used for user authentication. 
     - The AuthO service uses JWT, and its documentation was created by the AuthO team.
+    - `bcrypt` is used to encrypt and decrypt data
+        - also used is json web token (JWT)
+
+    ## Run project
+
+    - Use `brew services start mongodb-community@6.0` to run the mongodb setup from [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/) 
+    - also change `localhost` to `127.0.0.1`
