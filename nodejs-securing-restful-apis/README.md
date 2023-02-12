@@ -26,3 +26,9 @@
 
     - Use `brew services start mongodb-community@6.0` to run the mongodb setup from [here](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/) 
     - also change `localhost` to `127.0.0.1`
+
+
+## Test the API endpoints:
+
+1. Register a user - checkout the userControllers to see what to send via postman
+2. Login to get a token
