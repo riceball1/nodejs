@@ -32,3 +32,22 @@
 
 1. Register a user - checkout the userControllers to see what to send via postman
 2. Login to get a token
+3. Get contacts allows you to pass in the header the following:
+
+```
+{content-type: application/x-www-form-urlencoded, authorization: 'JWT <token>'}
+```
+
+## Services for securing APIS
+1. firebase
+2. cloud mongodb
+3. microsoft azure
+4. aws
+
+frameworks
+1. loopback
+2. strapi
+3. sails.js
+
+Alternative
+1. auth0
